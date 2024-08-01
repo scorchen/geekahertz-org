@@ -1,15 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import netlifyLogo from 'public/hello.geekahertz.jpg';
+import netlifyLogo from 'public/images/hello.geekahertz.jpg';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
-    { linkText: 'Revalidation', href: '/revalidation' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' },
-    { linkText: 'Classics', href: '/classics' }
+    { linkText: 'Fantasy Football 2024', href: '/ff-2024' },
+    { linkText: 'Discord', href: '/discord' },
+    { linkText: 'History', href: '/history' }
 ];
 
 export function Header() {
