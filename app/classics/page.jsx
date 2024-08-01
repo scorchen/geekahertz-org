@@ -21,7 +21,7 @@ Deploy this site to your Netlify account, [enable the forms feature in the UI](h
 export default async function Page() {
     return (
         <>
-            <h1>Netlify Classics</h1>
+            <h1>Geekahertz.org</h1>
             <Markdown content={explainer} />
             <div className="flex w-full pt-12 justify-center">
                 <FeedbackForm />
