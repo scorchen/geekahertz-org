@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import geekahertzBackground from 'public/images/hello.geekahertz.jpg';
-import geekahertzLogo from 'public/images/hgeekahertz.logo.jpg';
+import geekahertzLogo from 'public/images/geekahertz.logo.jpg';
 import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
