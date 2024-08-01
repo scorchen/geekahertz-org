@@ -37,12 +37,7 @@ export default function Page() {
                 
             </section>
            
-            <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
-            </section>
-            {/* !!cards?.length && <CardsGrid cards={cards} /> */}
+           
         </main>
     );
 }
